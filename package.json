@@ -1,0 +1,30 @@
+{
+  "author": "Vanessa Valle",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "",
+  "name": "node-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+ 
+  "repository": {
+       "type": "git",
+       "url": "git@github.com:vanessavalle/teste"
+   },
+
+  "keywords": [
+       "google",
+       "analytics",
+       "universal",
+       "tracking"
+   ],
+
+   "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "jsonfile": "^4.0.0",
+    "request": "^2.74.0"
+  }
+}
